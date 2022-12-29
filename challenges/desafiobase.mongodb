@@ -5,26 +5,4 @@
 use('commerce');
 
 // Search for documents in the current collection.
-db.getCollection('produtos')
-  .find(
-    {
-      /*
-      * Filter
-      * fieldA: value or expression
-      */
-    },
-    {
-      /*
-      * Projection
-      * _id: 0, // exclude _id
-      * fieldA: 1 // include field
-      */
-    }
-  )
-  .sort({
-    /*
-    * fieldA: 1 // ascending
-    * fieldB: -1 // descending
-    */
-    "vendidos": 1,
-  });
+db.produtos.find({ vendidos: { $gt: 130 } }, { nome: 1, vendidos: 1, _id: 0 });
