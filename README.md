@@ -1,10 +1,5 @@
-# :construction: README customizado em construção ! :construction:
-
 # Boas-vindas ao repositório do projeto MongoDB Commerce!
 
-# Entregáveis
-
-<details>
   <summary>
     <strong>👨‍💻 O que foi desenvolvido</strong>
   </summary><br>
@@ -13,11 +8,9 @@
 
   Esse projeto, foi trabalhado com o banco de dados `commerce`, que contém dados do cardápio do **McDonald's**, como ingredientes, valores nutricionais e dados fictícios de vendas.
   
-</details>
 
-# Orientações
+# Detalhes do projeto
 
-<details>
   <summary>
     <strong>Caso queira conhecer mais a fundo o projeto</strong>
   </summary><br>
@@ -29,20 +22,17 @@
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd gabriel-rodrigues-mongodb-commerce.git`
 
-  3. Para cada exercício você deve criar um novo arquivo JS **dentro de uma pasta na raiz do seu projeto chamada `challenges`** seguindo a seguinte estrutura:
+  2. Para cada exercício foi criado um novo arquivo JS **dentro de uma pasta na raiz do seu projeto chamada `challenges`** seguindo a seguinte estrutura:
 
   - desafio1.js, desafio2.js, ..., desafioN.js
 
-<details>
   <summary>
     <strong>🎛 Linter</strong>
   </summary><br>
 
   Para fazer a análise estática do código neste projeto, foi utilizado o linter [ESLint](https://eslint.org/). Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção!
 
-</details>
 
-<details>
   <summary>
     <strong>👷 Estruturação do projeto</strong>
   </summary><br>
