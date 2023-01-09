@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto MongoDB Commerce!
+# MongoDB Commerce! :game_die:
 
   <summary>
     <strong>👨‍💻 O que foi desenvolvido</strong>
